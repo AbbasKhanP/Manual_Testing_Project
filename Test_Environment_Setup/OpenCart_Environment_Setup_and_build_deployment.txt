@@ -1,0 +1,46 @@
+Environment setup and build deployment
+1.	OpenCart download location
+https://www.opencart.com/index.php?route=cms/download
+	Click on Download
+
+
+2.	XAMPP for Apache, MySQL, And PHP installation  
+https://www.apachefriends.org/download.html
+	download based on your pc version
+Setup
+	Click on Next
+	(don’t make any changes) Just click on Next
+	By default, it selects the folder just Click on Next
+	Select English
+	Click on Next
+	Uncheck the option
+	Click on Next
+	Click on Next
+	Finish
+
+
+3.	Extract -> OpenCart folder -> open ->copy OpenCart folder -> go to the XAMPP folder -> htdocs folder -> 
+paste copied opencart file-> open upload folder-> config.dist.php rename to config.php -> open admin -> config.dist.php rename to config.php
+
+
+4.	Connect to the databases and create DB
+DB access URI:- http://localhost/phpmyadmin/index.php?route=/server/databases
+To access this URI or DataBases you have to start MySQL in XAMPP
+
+
+5.	Create a new database in PHP (Openshop)
+new -> open shop -> collection -> create
+
+
+6.	Open on-site OpenCart application
+http://localhost/opencart/upload/  TO ACCESS THIS OPENCART APPLICATION YOU HAVE TO START APACHE IN XAMPP
+	UPLOAD
+	CONTINUE
+	CONTINUE
+	DATABASES (OPENSHOP)
+	OC_
+Username: - ADMIN
+Password: - ADMIN
+EMAIL: - ADMIN@GMAIL.COM
+	CONTINUE
+Delete the install folder if any build fails then it is called as smoke testing and rejected and sent back to the developer
